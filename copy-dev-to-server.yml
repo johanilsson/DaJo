@@ -24,6 +24,6 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         source: '*'
-        target: /var/www/dev-healthworks.nodehill.com/public_html
+        target: /var/www/dev-dajo.stokjouren.work/public_html
         rm: true
         overwrite: true
